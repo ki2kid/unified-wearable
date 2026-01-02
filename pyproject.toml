@@ -1,0 +1,26 @@
+[project]
+name = "unified-wearable"
+version = "0.1.0"
+authors = [
+  { name="Mohammed Mubarak", email="modymu9@gmail.com" },
+]
+description = "A tool to convert wearable devices data into FHIR compatible format."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+]
+
+[project.urls]
+"Homepage" = "github.com/ki2kid/unified-wearable"
+"Bug Tracker" = "github.com/unified-wearable/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
